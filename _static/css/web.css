@@ -1,0 +1,193 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+footer {
+  padding: 30px 0;
+}
+
+.navbar-static-top 
+  margin-bottom: 30px;
+}
+
+.mytag{
+  margin-left: 40px;
+}
+
+.myButton{
+  width: 190px;
+  margin-left: 42px;
+}
+
+.myWell{
+  width: 790px;
+}
+
+.myWell span{
+  font-size: 20px;
+}
+
+.myItem{
+  list-style: none;
+  text-indent: 20px;
+}
+
+.panel-title{
+  width: 125px !important;
+}
+
+.topAuthor{
+  font-size: 40px;
+}
+
+#myCaption{
+  width: 300px;
+ /* float: left !important;*/
+}
+
+.mylead{
+  font-size: 20px;
+  margin-bottom: 0px !important;
+}
+
+.myImg{
+  margin-right: 10px;
+}
+
+.page-header small{
+  color: #000 !important;
+}
+
+/*#bgImg{
+  width: 240px;
+  height: inherit;
+  background-image: url("http://placehold.it/240x210&amp;text=[Profile Pic]");
+  background-repeat: no-repeat;
+}
+
+#bgImg p{
+  padding-top: 165px;
+  padding-bottom: 5px;
+  text-shadow: 1px 1px #ccc;
+}*/
+
+.mywell{
+  margin-left: 15px;
+}
+
+.mywell p{
+  margin-bottom: 0px;
+}
+
+.myItem a{
+  width: 90px !important;
+}
+
+.myrow{
+  height: 80px !important;
+}
+  
+#myBack{
+  font-size: 13px;
+}
+
+.pager{
+  width: 200px !important;
+  margin-left: 15px !important;
+  margin-bottom: 10px !important;
+  margin-top: 0px !important;
+}
+
+#tagsinput_tagsinput{
+  margin-left: 15px;
+}
+
+.block{
+  position: absolute !important;
+  left: 0px;
+  width: 245px;
+  margin-left: 15px;
+}
+
+.myText{
+   /*width: 960px;*/ 
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+
+
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+}
+
+
+
